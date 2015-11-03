@@ -11,6 +11,6 @@
 5. 修改`_config.yml`配置项
 6. It's done!
 
-### 分支说明
+### 代码说明
 - 使用[suyan.github.io](https://github.com/suyan/suyan.github.io)Jekyll库代码，感谢
 - 三栏布局（master分支，基于[3-Jekyll](https://github.com/P233/3-Jekyll)）
