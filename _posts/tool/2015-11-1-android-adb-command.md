@@ -8,7 +8,101 @@ description: Android常用ADB命令,批量处理
 
 ## 常用ADB命令
 
-### 1、adb命令批处理
+### 1、启动和关闭adb服务
+  启动
+```java
+    adb kill-server
+```
+
+  关闭
+```java
+    adb start-server
+```
+
+### 2、adb shell绑定hosts
+  绑定
+```java
+    adb shell
+    root@android:/ # cat etc/hosts
+    127.0.0.1       localhost
+    root@android:/ # adb remount
+    * daemon not running. starting it now on port 5038 *
+    * daemon started successfully *
+    remount succeeded
+    root@android:/ # echo ip domain > etc/hosts
+    root@android:/ # reboot
+
+    e.g: echo 192.168.1.101 xxx.com > etc/hosts
+         echo 192.168.1.102 yyy.com >> etc/hosts
+```
+
+### 3、adb通过ip链接设备
+  链接设备
+```java
+    adb connect xxx.xxx.xxx.xxx
+    e.g: adb connect 192.168.1.101
+```
+
+  断开链接设备
+```java
+    adb disconnect xxx.xxx.xxx.xxx
+    e.g: adb disconnect 192.168.1.101
+```
+
+  断开所有设备
+```java
+    adb disconnect
+    e.g: adb disconnect
+```
+
+
+### 4、adb发送广播
+
+```java
+    adb shell am broadcast -a xxx
+```
+
+### 5、adb命令启动Activity
+
+启动设置页面
+```java
+    adb shell am start -n com.android.settings/.Settings
+```
+
+### 6、adb显示链接设备
+
+```java
+    adb devices
+
+    e.g: bogon:i$ adb devices
+         List of devices attached 
+         192.168.1.102:5555  device
+```
+
+### 7、adb命令查看内存使用情况
+
+启动设置页面
+```java
+    adb shell dumpsys meminfo + packageName
+    e.g: adb shell dumpsys meminfo com.dangbeimarket
+```
+
+### 8、adb安装和卸载应用
+
+安装
+```java
+    adb install + apkpath
+    e.g: adb install D:/a.apk
+```
+
+卸载
+```java
+    adb uninstall + packagename
+    e.g: adb uninstall com.dangbeimarket
+```
+
+
+### 8、adb命令批处理
 
 很多时候需要批量处理adb命令，例如：发送100条广播
 
