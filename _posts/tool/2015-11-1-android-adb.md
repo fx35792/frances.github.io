@@ -14,7 +14,8 @@ description: Android常用ADB命令,批量处理
 
 * 方法一：使用adb shell
 直接再命令行输入
-```shell
+
+```java
   for((i=0;i<=100;i++))
   do
   echo $i ;
@@ -22,9 +23,11 @@ description: Android常用ADB命令,批量处理
   i=$(($i+1));
   done
 ```
+
 * 方法二：使用python脚本执行adb shell命令<br/>
    1、编写 test.py文件<br/>
-```python
+
+```java
   import os
   
   n = 0
@@ -33,8 +36,9 @@ description: Android常用ADB命令,批量处理
   n = n + 1
   os.system("adb shell am broadcast -a xxxx")
 ```
+
   2、执行python test.py<br/>
   
-  ```python
+  ```java
   root$ python loop.py
   ```
