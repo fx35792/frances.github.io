@@ -39,6 +39,6 @@ description: Android常用ADB命令,批量处理
 
   2、执行python test.py<br/>
   
-  ```java
+```java
   root$ python loop.py
-  ```
+```
