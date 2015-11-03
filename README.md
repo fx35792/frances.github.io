@@ -12,7 +12,5 @@
 6. It's done!
 
 ### 分支说明
-- 使用[suyan.github.io](https://github.com/suyan/suyan.github.io)Jekyll库代码
+- 使用[suyan.github.io](https://github.com/suyan/suyan.github.io)Jekyll库代码，感谢
 - 三栏布局（master分支，基于[3-Jekyll](https://github.com/P233/3-Jekyll)）
-- 三栏布局 (bootstrap-based分支，基于Bootstrap)
-- 单栏布局（first-ui分支，基于Bootstrap）
