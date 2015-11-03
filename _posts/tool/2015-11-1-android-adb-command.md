@@ -42,3 +42,5 @@ description: Android常用ADB命令,批量处理
 ```java
   root$ python loop.py
 ```
+
+###  未完待续。。。
