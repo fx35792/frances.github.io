@@ -14,13 +14,10 @@ description: Android常用ADB命令,批量处理
 
 1、将下载的软件放置适当目录下，本例子以 “/Users/xxx/Development/apktool”为例;<br/>
 2、通过终端命令进入以上目录下，将要反编译的apk放置相同目录下;<br/>
-3、执行命令;<br/>
+3、执行命令,看到以下信息说明你成功了;<br/>
 
 ```java
-  apktool d xxx
-```
-看到以下信息说明你成功了
-```
+apktool d xxx
 I: Using Apktool 2.0.0-RC4 on ten.apk
 I: Loading resource table...
 I: Decoding AndroidManifest.xml with resources...
@@ -33,8 +30,8 @@ I: Baksmaling classes.dex...
 I: Copying assets and libs...
 I: Copying unknown files...
 I: Copying original files...
-
 ```
+
 4、以上可以看到apk中的xml信息和图片资源等;<br/>
 5、开始反编译java源文件;<br/>
 6、将刚才的apk文件后缀名称改成zip，然后解压得到classes.dex文件，将其复制到dex2jar-0.0.9.15目录下;<br/>
