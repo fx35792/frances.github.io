@@ -20,9 +20,14 @@ description: Android常用ADB命令,批量处理
 ```
 
 ### 2、adb shell绑定hosts
+<<<<<<< HEAD
   绑定
   
+=======
+
+>>>>>>> c4641a4b360c82b6caadb005ad02934445b06159
 ```java
+    //绑定
     adb shell
     root@android:/ # cat etc/hosts
     127.0.0.1       localhost
@@ -32,7 +37,6 @@ description: Android常用ADB命令,批量处理
     remount succeeded
     root@android:/ # echo ip domain > etc/hosts
     root@android:/ # reboot
-
     e.g: echo 192.168.1.101 xxx.com > etc/hosts
          echo 192.168.1.102 yyy.com >> etc/hosts
 ```
@@ -103,7 +107,7 @@ description: Android常用ADB命令,批量处理
 ```
 
 
-### 8、adb命令批处理
+### 9、adb命令批处理
 
 很多时候需要批量处理adb命令，例如：发送100条广播
 
