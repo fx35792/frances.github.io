@@ -20,12 +20,7 @@ description: Android常用ADB命令,批量处理
 ```
 
 ### 2、adb shell绑定hosts
-<<<<<<< HEAD
-  绑定
-  
-=======
 
->>>>>>> c4641a4b360c82b6caadb005ad02934445b06159
 ```java
     //绑定
     adb shell
