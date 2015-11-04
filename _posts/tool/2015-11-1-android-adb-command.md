@@ -21,6 +21,7 @@ description: Android常用ADB命令,批量处理
 
 ### 2、adb shell绑定hosts
   绑定
+  
 ```java
     adb shell
     root@android:/ # cat etc/hosts
