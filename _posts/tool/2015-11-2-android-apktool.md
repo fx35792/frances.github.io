@@ -6,11 +6,11 @@ tags: [Android,apktool,jd-gui]
 description: Android常用ADB命令,批量处理
 ---
 
-## 软件准备
+## 一、软件准备
 
 1、亲测[下载地址](http://pan.baidu.com/s/1hqvvHLM)
 
-## 具体操作
+## 二、具体操作
 
 1、将下载的软件放置适当目录下，本例子以 “/Users/xxx/Development/apktool”为例;<br/>
 2、通过终端命令进入以上目录下，将要反编译的apk放置相同目录下;<br/>
