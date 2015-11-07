@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome
+title: 欢迎
 ---
 
 ## 博客是用来干嘛的
