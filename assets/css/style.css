@@ -85,7 +85,7 @@ a {
    Tags
 \*---------------------------------*/
 #tags {
-  width: 165px;
+  width: 130px;
   height: 100%;
   background: #474d57;
   border-right: 1px solid #3c4149;
@@ -210,7 +210,7 @@ a {
    Posts List
 \*---------------------------------*/
 #posts-list {
-  width: 420px;
+  width: 400px;
   height: 100%;
   background: rgba(250, 250, 250, 0.95);
   border-right: 1px solid #e5e8ec;
@@ -224,7 +224,7 @@ a {
   @media screen and (max-width: 585px) {
     #posts-list {
       width: 100%; } }
-
+/*
 #search-form {
   width: 100%;
   height: 65px;
@@ -233,7 +233,7 @@ a {
     #search-form {
       height: 51px;
       display: -webkit-flex;
-      display: flex; } }
+      display: flex; } }*/
 
 #mobile-avatar {
   width: 50px;
@@ -246,7 +246,7 @@ a {
     #mobile-avatar {
       display: block;
       float: left; } }
-
+/*
 #search-input {
   width: 100%;
   height: 100%;
@@ -277,17 +277,17 @@ a {
     #search-input {
       padding: 10px 10px 0;
       -webkit-flex: 1;
-      flex: 1; } }
+      flex: 1; } }*/
 
 #pl__container {
-  padding-top: 7px;
+ /* padding-top: 7px;*/
   padding-bottom: 10px;
   color: #64717f;
   text-shadow: -1px 1px 0 rgba(125, 139, 153, 0.1);
   overflow-x: hidden;
   overflow-y: auto;
-  position: absolute;
-  top: 65px;
+  /*position: absolute;
+  top: 65px;*/
   bottom: 0;
   left: 0;
   right: -1px;
@@ -304,7 +304,7 @@ a {
       top: 50px; } }
 
 .pl__all {
-  margin: 4px 12px;
+/*  margin: 4px 12px;*/
   padding: 4px 8px 3px;
   border-radius: 4px;
   display: block; }
