@@ -10,6 +10,9 @@
 4. 修改CNAME(评论)，或者删掉这个文件，使用默认域名
 5. 修改`_config.yml`配置项
 6. It's done!
+ 
+### 更新说明
+1.添加个人域名，新建CNAME，在域名服务商设置即可 11.1
 
 ### 代码说明
 - 使用[suyan.github.io](https://github.com/suyan/suyan.github.io)Jekyll库代码，感谢
