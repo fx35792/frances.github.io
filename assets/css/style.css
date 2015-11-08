@@ -169,7 +169,7 @@ a {
       border-top: 2px solid #fafafa;
       border-radius: 0 6px 0 0; }
 
-#tags__bottom {
+/*#tags__bottom {
   width: 100%;
   height: 44px;
   border-top: 1px solid #3c4149;
@@ -183,7 +183,7 @@ a {
     line-height: 44px;
     text-align: center;
     border-top: 1px solid #525965;
-    float: left; }
+    float: left; }*/
 
 #icon-email {
   border-right: 1px solid #3c4149; }
