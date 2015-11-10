@@ -19,3 +19,4 @@ keywords: Android,github.git
 11、[FlycoPageIndicator](https://github.com/H07000223/FlycoPageIndicator) Viewpager 幻灯效果切换<br />
 12、[android-vertical-slide-view](https://github.com/xmuSistone/android-vertical-slide-view)仿照淘宝和聚美优品，在商品详情页，向上拖动时，可以加载下一页<br />
 13、[androidmvp-Android中的MVP](https://github.com/antoniolg/androidmvp)简单得AndroidMVP实例,[更好理解－Android中的MVP](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0227/2503.html)<br />
+#### －－未完待续，如果有丢失链接得请告知，谢谢！
