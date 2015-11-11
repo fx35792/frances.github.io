@@ -19,4 +19,7 @@ keywords: Android,github.git
 11、[FlycoPageIndicator](https://github.com/H07000223/FlycoPageIndicator) Viewpager 幻灯效果切换<br />
 12、[android-vertical-slide-view](https://github.com/xmuSistone/android-vertical-slide-view)仿照淘宝和聚美优品，在商品详情页，向上拖动时，可以加载下一页<br />
 13、[androidmvp-Android中的MVP](https://github.com/antoniolg/androidmvp)简单得AndroidMVP实例,[更好理解－Android中的MVP](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0227/2503.html)<br />
-#### －－未完待续，如果有丢失链接得请告知，谢谢！
+14、[fresco](https://github.com/facebook/fresco)Fresco图片加载使用<br />
+15、[DynamicAPK](https://github.com/CtripMobile/DynamicAPK)携程实现Android多apk插件化和动态加载，支持资源分包<br />
+16、[TextView预渲染研究](https://github.com/ragnraok/StaticLayoutView)<br />
+### --未完待续，如果有丢失链接得请告知，谢谢！
