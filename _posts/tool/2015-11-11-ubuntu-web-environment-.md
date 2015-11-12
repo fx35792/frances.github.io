@@ -67,7 +67,7 @@ sudo /etc/init.d/apache2 restart
 sudo apt-get install libapache2-mod-auth-mysql
 ```
 
-## 3、PHP
+## 三、PHP
 
 1、安装<br/>
 
@@ -94,7 +94,7 @@ sudo apt-get install php5-gd
 http://localhost/info.php
 ```
 
-## 4、phpmyadmin
+## 四、phpmyadmin
 
 1、安装<br/>
 
