@@ -1,19 +1,23 @@
-### 我的博客
+> 我的博客,承接fork下的code，原来的题目是“对博客的理解”，看到它就想到了“博客是用来干嘛的”这个题目，可能大家的看法都不一样，以下只要按照自己的喜好来阐述博客了,不喜勿喷哈。
 
-地址：[http://whiskeyfei.github.io/](http://whiskeyfei.github.io/)
+> 看到网络上很多好看的博客，放着自己写的帖子或文章，自己也想成为那样，然后就开始了折腾尝试，搞过网站、论坛(discuz)、博客(wordpress)、开发平台(BAE,SAE)、android刷机、拆机、装黑苹果等,当时用免费的空间搭建博客、论坛等，但是没有一个长时间的坚持，过一段时间就扔一边了，空间到期，数据库删除等也不知道，干脆也就不弄了，后来把博客迁移到CSDN上，这个倒不用考虑太多到期问题，但是呢，用这总感觉不爽，可能不太喜欢那样的风格布局把。
+
+> Github大学的时候就知道了，晚上说这个很厉害，以为git、github很难，所以一直拖着没好好学一学，直到在公司实习，才发现gitbub大有用处，也就开始了git、github的学习之路，平常学习的知识点也使用印象笔记、未知云笔记(已弃用)来记录，以后查找起来也很方便，而现在想规整出来，点滴记录平时的学习。
+
+> 博客即小时候的“日记”，是一个比较私有的空间，一切都按自己的意愿实现，所以很舒心，可以记录平时的工作、生活、运动、旅行、美食等等，其实这就足够了，也是一个社交网络，可以相互评论学习进步。地址：[http://whiskeyfei.github.io/](http://whiskeyfei.github.io/)
 
 ### 安装说明
 
-1. fork库到自己的github
-2. 修改名字为：`username.github.io`
-3. clone库到本地，参考`_posts`中的目录结构自己创建适合自己的文章目录结构
-4. 修改CNAME(评论)，或者删掉这个文件，使用默认域名
-5. 修改`_config.yml`配置项
-6. It's done!
+1、fork库到自己的github <br/>
+2、修改名字为：`username.github.io`<br/>
+3、clone库到本地，参考`_posts`中的目录结构自己创建适合自己的文章目录结构<br/>
+4、修改CNAME(评论)，或者删掉这个文件，使用默认域名<br/>
+5、修改`_config.yml`配置项<br/>
+6、It's done!<br/>
  
 ### 更新说明
-1.添加个人域名，新建CNAME，在域名服务商设置即可 11.1
+* 添加个人域名，新建CNAME，在域名服务商解析域名到github即可
 
 ### 代码说明
-- 使用[suyan.github.io](https://github.com/suyan/suyan.github.io)Jekyll库代码，感谢
-- 三栏布局（master分支，基于[3-Jekyll](https://github.com/P233/3-Jekyll)）
+* 使用[suyan.github.io](https://github.com/suyan/suyan.github.io)Jekyll库代码，感谢
+* 三栏布局（master分支，基于[3-Jekyll](https://github.com/P233/3-Jekyll)）
