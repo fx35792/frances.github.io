@@ -22,4 +22,7 @@ keywords: Android,github.git
 14、[fresco](https://github.com/facebook/fresco)Fresco图片加载使用<br />
 15、[DynamicAPK](https://github.com/CtripMobile/DynamicAPK)携程实现Android多apk插件化和动态加载，支持资源分包<br />
 16、[TextView预渲染研究](https://github.com/ragnraok/StaticLayoutView)<br />
+17、[SharePreferences包装库](https://github.com/baoyongzhang/Treasure)<br />
+18、[KLog](https://github.com/ZhaoKaiQiang/KLog)LogCat方便打印log<br />
+
 ### --未完待续，如果有丢失链接得请告知，谢谢！
