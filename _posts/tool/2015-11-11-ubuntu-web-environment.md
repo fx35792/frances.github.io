@@ -15,7 +15,7 @@ description: ubuntu环境下配置web开发环境
 
 1、执行第一条命令，如果出现缺少软件包无法下载情况，则限执行sudo apt-get update命令，再执行第一条即可;<br/>
 2、进入蓝色背景设置界面，设定密码神马的;<br/>
-3、重启、登录<br/>
+3、重启、登录;<br/>
 
 ```
 mysql(sudo service mysql restart)
@@ -36,7 +36,7 @@ sudo apt-get install php5-mysql
 
 1、Apache安装完成后，默认的网站根目录是/var/www/html;<br/>
 2、不出意外得话在浏览器中访问localhost或者127.0.0.1或者真实ip就可以打开apache得默认页面;<br/>
-3、将网站得默认目录修改成www下，两个文件etc/apache2目录下的apache2.conf和etc/apache2/sites-available/000-default.conf文件<br/>
+3、将网站得默认目录修改成www下，两个文件etc/apache2目录下的apache2.conf和etc/apache2/sites-available/000-default.conf文件;<br/>
 
 ```
 //以下是部分命令，不完整
