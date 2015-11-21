@@ -24,5 +24,7 @@ keywords: Android,github.git
 16、[TextView预渲染研究](https://github.com/ragnraok/StaticLayoutView)<br />
 17、[SharePreferences包装库](https://github.com/baoyongzhang/Treasure)<br />
 18、[KLog](https://github.com/ZhaoKaiQiang/KLog)LogCat方便打印log<br />
-
+19、[Material-Animations](https://github.com/lgvalle/Material-Animations.git)Android过渡动画解释和例子。<br/>
+20、[AnimationEasingFunctions](https://github.com/daimajia/AnimationEasingFunctions)Android Animation Easing Functions. Let's make animation more real!<br/>
+21、[BaseAnimation](https://github.com/z56402344/BaseAnimation.git)动画合集<br/>
 ### --未完待续，如果有丢失链接得请告知，谢谢！
