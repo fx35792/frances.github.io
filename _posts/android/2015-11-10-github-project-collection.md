@@ -26,5 +26,8 @@ keywords: Android,github.git
 18、[KLog](https://github.com/ZhaoKaiQiang/KLog)LogCat方便打印log<br />
 19、[LinearListView](https://github.com/frankiesardo/LinearListView)LinearListView快速滑动<br />
 20、[awesome-java-cn](https://github.com/jobbole/awesome-java-cn)Java资源大全中文版<br />
-
+21、[Material-Animations](https://github.com/lgvalle/Material-Animations.git)Android过渡动画解释和例子。<br/>
+22、[AnimationEasingFunctions](https://github.com/daimajia/AnimationEasingFunctions)Android Animation Easing Functions. Let's make animation more real!<br/>
+23、[BaseAnimation](https://github.com/z56402344/BaseAnimation.git)动画合集<br/>
+>>>>>>> a6e8f862dfe0a1abcdb8b5e60a5c92a11a48c180
 ### --未完待续，如果有丢失链接得请告知，谢谢！
