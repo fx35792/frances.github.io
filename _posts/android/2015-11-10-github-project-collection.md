@@ -24,5 +24,7 @@ keywords: Android,github.git
 16、[TextView预渲染研究](https://github.com/ragnraok/StaticLayoutView)<br />
 17、[SharePreferences包装库](https://github.com/baoyongzhang/Treasure)<br />
 18、[KLog](https://github.com/ZhaoKaiQiang/KLog)LogCat方便打印log<br />
+19、[LinearListView](https://github.com/frankiesardo/LinearListView)LinearListView快速滑动<br />
+20、[awesome-java-cn](https://github.com/jobbole/awesome-java-cn)Java资源大全中文版<br />
 
 ### --未完待续，如果有丢失链接得请告知，谢谢！
