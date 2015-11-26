@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github日常项目收集
-category: android
+category: 日常
 keywords: Android,github.git
 ---
 
