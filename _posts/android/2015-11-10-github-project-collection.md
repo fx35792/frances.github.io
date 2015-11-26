@@ -29,5 +29,5 @@ keywords: Android,github.git
 21、[Material-Animations](https://github.com/lgvalle/Material-Animations.git)Android过渡动画解释和例子。<br/>
 22、[AnimationEasingFunctions](https://github.com/daimajia/AnimationEasingFunctions)Android Animation Easing Functions. Let's make animation more real!<br/>
 23、[BaseAnimation](https://github.com/z56402344/BaseAnimation.git)动画合集<br/>
->>>>>>> a6e8f862dfe0a1abcdb8b5e60a5c92a11a48c180
+
 ### --未完待续，如果有丢失链接得请告知，谢谢！
