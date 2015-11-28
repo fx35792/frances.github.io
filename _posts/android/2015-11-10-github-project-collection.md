@@ -29,5 +29,11 @@ keywords: Android,github.git
 21、[Material-Animations](https://github.com/lgvalle/Material-Animations.git)Android过渡动画解释和例子。<br/>
 22、[AnimationEasingFunctions](https://github.com/daimajia/AnimationEasingFunctions)Android Animation Easing Functions. Let's make animation more real!<br/>
 23、[BaseAnimation](https://github.com/z56402344/BaseAnimation.git)动画合集<br/>
+24、 [leakcanary](https://github.com/square/leakcanary)内存检测<br/>
+25、[LinearListView](https://github.com/frankiesardo/LinearListView)LinearListView快速滑动<br/>
+26、[awesome-java-cn](https://github.com/jobbole/awesome-java-cn)Java资源大全中文版<br/>
+27、[SpringIndicator水滴效果viewpager](https://github.com/chenupt/SpringIndicator)<br/>
+28、[volley官方源码](https://android.googlesource.com/platform/frameworks/volley/)<br/>
+29、[android-volley非官方](https://github.com/mcxiaoke/android-volley)<br/>
 
 ### --未完待续，如果有丢失链接得请告知，谢谢！
