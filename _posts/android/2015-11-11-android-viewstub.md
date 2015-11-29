@@ -1,25 +1,65 @@
 ---
 layout: post
-title: Android ViewStub使用
+title: Android ViewStub、include使用
 category: android
-keywords: Android,ViewStub
+keywords: Android,ViewStub,include
 ---
+# 一、include
 
-> 用途:布局优化，开发中经常听说view优化，但是真正用到得ViewStub可能不多，做下记录，今天优化代码将ViewStub加入,include标签就不用说了,开发经常用的标签，简单的包含父布局； 
+> include用途：引入重复布局，使布局得到复用
 
-### 使用场景
+### 1、使用
+
+```
+  <include
+        android:id="@+id/top_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_top_layout" />
+
+    /**
+     * 直接通过this查找，因为include已经转换成layout中的布局
+     */
+    private void methodTwo() {
+        TextView textView = (TextView)findViewById(R.id.textview);
+        textView.setText("Top Title Two");
+    }
+    
+    /**
+     *  通过mView查找子view控件
+     */
+    private void methodOne() {
+        ImageView imageView = (ImageView) mView.findViewById(R.id.imageview);
+        TextView textView = (TextView) mView.findViewById(R.id.textview);
+        textView.setText("Top Title One");
+    }
+```
+
+### 2、注意事项
+
+* <font color=#4094c7>注意标签是android:layout不是layout,和include区分;</font>
+* <font color=#4094c7>如果include设置了Id则需要通过Id来查找目标布局的根元素;</font>
+
+***
+
+# 二、ViewStub
+
+> ViewStub用途:布局优化，开发中经常听说view优化，但是真正用到得ViewStub可能不多，做下记录，今天优化代码将ViewStub加入,include标签就不用说了,开发经常用的标签，简单的包含父布局； 
+
+### 1、使用场景
 
 * 延迟加载或者很少几率才用到得view布局，比如:错误信息显示、占位等;
 * 遇到重复的view布局，通过android:layout引入;
 * 存在两者取其一等类似情况，没必要都初始化好;
 
-### 注意事项
+### 2、注意事项
 
 * <font color=#4094c7>inflate()被调用之后，返回的是父布局控件对象,不能再次调用inflate();</font>
 * <font color=#4094c7>注意标签是android:layout不是layout,和include区分;</font>
 * <font color=#4094c7>可以使用inflatedId重写ViewStub的父布局控件的Id,也就是说,如果ViewStup设置了inflatedId则需要通过inflatedId来查找目标布局的根元素;</font>
 
 ViewStub源码:
+
 ```java
     public View inflate() {
         final ViewParent viewParent = getParent();
@@ -62,7 +102,7 @@ ViewStub源码:
 
 ```
 
-### 使用
+### 3、使用
 
 ```
      <ViewStub android:id="@+id/stub"
@@ -77,12 +117,15 @@ ViewStub源码:
      //这里的设置了inflatedId则通过inflatedId来获取子view
 
 ```
+# 三、Demo
 
-### 总结
+代码是最好的老师，[点我点我](https://github.com/whiskeyfei/WFAndroidDemo/tree/master/WPLayoutImp)
+
+# 四、总结
 
 官方说明ViewStub本质就是一个高度为0个View，默认不可见，只有通过调用setVisibility函数或者Inflate函数才会将其要装载的目标布局给加载出来,从而达到延迟加载效果，不需要的时候也可以不加载
 
-### 推荐文章
+# 五、推荐文章
 
 * [Google ViewStub reference](http://developer.android.com/intl/zh-cn/reference/android/view/ViewStub.html)
 * [ViewStub的应用](http://blog.csdn.net/hitlion2008/article/details/6737537)
