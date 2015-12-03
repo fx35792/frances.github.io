@@ -35,5 +35,13 @@ keywords: Android,github.git
 27、[SpringIndicator水滴效果viewpager](https://github.com/chenupt/SpringIndicator)<br/>
 28、[volley官方源码](https://android.googlesource.com/platform/frameworks/volley/)<br/>
 29、[android-volley非官方](https://github.com/mcxiaoke/android-volley)<br/>
+20、[一种在android中实现MVP模式的新思路](https://github.com/bboyfeiyu/android-tech-frontier/tree/master/androidweekly/%E4%B8%80%E7%A7%8D%E5%9C%A8android%E4%B8%AD%E5%AE%9E%E7%8E%B0MVP%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%96%B0%E6%80%9D%E8%B7%AF)<br/>
+21、[MVPro](https://github.com/qibin0506/MVPro)<br/>
+22、[BadgedImageview](https://github.com/yesidlazaro/BadgedImageview)10 条提升 Android 性能的建议<br/>
+23、[DWCinemaAnimation-Android](https://github.com/DavidWangTM/DWCinemaAnimation-Android)<br/>
+24、[Aisen微博-新浪微博的第三方客户端](https://github.com/wangdan/AisenWeiBo.git)，非常适合独立开发者学习<br/>
+25、[BookdashAndroidApp](https://github.com/spongebobrf/BookdashAndroidApp)<br/>
+26、[loading-balls](https://github.com/glomadrian/loading-balls)loading<br/>
+27、[JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)口语化正则表达式<br/>
 
 ### --未完待续，如果有丢失链接得请告知，谢谢！
