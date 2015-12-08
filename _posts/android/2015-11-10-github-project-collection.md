@@ -32,6 +32,11 @@ keywords: Android,github.git
 24、 [leakcanary](https://github.com/square/leakcanary)内存检测<br/>
 25、[LinearListView](https://github.com/frankiesardo/LinearListView)LinearListView快速滑动<br/>
 26、[awesome-java-cn](https://github.com/jobbole/awesome-java-cn)Java资源大全中文版<br/>
+27、[SmartTabLayout](https://github.com/ogaclejapan/SmartTabLayout)快速切换tab
+28、[LabelView](https://github.com/corerzhang/LabelView)
+29、[android-best-practices](https://github.com/futurice/android-best-practices/blob/master/translations/Chinese/README.cn.md)Android 开发最佳实践,记录一些规范等
+30、[AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配，最大限度解决适配问题
+31、[EventBus](https://github.com/greenrobot/EventBus)
 27、[SpringIndicator水滴效果viewpager](https://github.com/chenupt/SpringIndicator)<br/>
 28、[volley官方源码](https://android.googlesource.com/platform/frameworks/volley/)<br/>
 29、[android-volley非官方](https://github.com/mcxiaoke/android-volley)<br/>
