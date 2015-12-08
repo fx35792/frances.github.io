@@ -26,7 +26,7 @@ keywords: Android,ViewStub,include
     }
     
     /**
-     *  通过mView查找子view控件
+     *  通过mView查找子view控件,mView为layout布局
      */
     private void methodOne() {
         ImageView imageView = (ImageView) mView.findViewById(R.id.imageview);
@@ -37,8 +37,8 @@ keywords: Android,ViewStub,include
 
 ### 2、注意事项
 
-* <font color=#4094c7>注意标签是android:layout不是layout,和include区分;</font>
-* <font color=#4094c7>如果include设置了Id则需要通过Id来查找目标布局的根元素;</font>
+* 注意标签是是layout,和viewStub区分;
+* 如果include设置了Id则需要通过Id来查找目标布局的根元素;
 
 ***
 
