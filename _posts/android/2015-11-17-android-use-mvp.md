@@ -7,7 +7,9 @@ keywords: Android,MVP
 
 > 前段时间接收了一个模块，看着代码让人捉急，于是将模块用MVP思想来优化了，考虑到不能太多的影响现有模块功能和其他调用方式，没有做太大的改动，只是将流程进行了梳理和优化，在以后新的模块中可以使用MVVM思想，比MVP优点更多，直接上案例； 
 
-> MVP是一套理论概念，而不是一种具体实现,所以,找到能解决问题合适框架思想并加以运用是最重要的
+> MVP是一套理论概念，而不是一种具体实现,需要注意MVP仅用于应用中的GUI部分，它并不是整个应用的架构方式，一个应用的主要的架构应该包括基础组件，业务逻辑层和GUI展示层，而MVP仅是用于展示层的设计模式。
+
+> 另外，它是一个方法论的东西，没有固定的实现方式，只要能体现出它的方法就可以算是MVP。
 
 > 最后送上一句话,再看资料时看到的，“Architecture is About Intent, not Frameworks” - Robert C. Martin (Uncle Bob)
 
@@ -19,7 +21,16 @@ keywords: Android,MVP
 
 * 不能为了接口而抽象,适当的抽象;
 * 考虑业务是否符合MVP;
-* View过多时,不建议使用MVP,view增多导致Presenter增多,从而不以维护; 
+* View过多时,不建议使用MVP,view增多导致Presenter增多,从而不以维护;
+
+### 约束条件
+
+* Model与View不能直接通信，只能通过Presenter
+* Presenter类似于中间人的角色进行协调和调度
+* Model和View是接口，Presenter持有的是一个Model接口和一个View接口
+* Model和View都应该是被动的，一切都由Presenter来主导
+* Model应该把与业务逻辑层的交互封装掉，换句话说Presenter和View不应该知道业务逻辑层
+* View的逻辑应该尽可能的简单，不应该有状态。当事件发生时，调用Presenter来处理，并且不传参数，Presenter处理时再调用View的方法来获取。
 
 ### 具体使用
 
@@ -154,12 +165,13 @@ public class MainModel implements IMainModel {
 }    
 ```
 
-### 推荐文章
+### 参考文章
 
 * [MVVM_Android-CleanArchitecture](http://rocko.xyz/2015/11/07/MVVM_Android-CleanArchitecture/)
 * [Android中的MVP](http://rocko.xyz/2015/02/06/Android%E4%B8%AD%E7%9A%84MVP/)
+* [说说Android的MVP模式](http://toughcoder.net/blog/2015/11/29/understanding-android-mvp-pattern/)文章中有些话，摘自[说说Android的MVP模式](http://toughcoder.net/blog/2015/11/29/understanding-android-mvp-pattern/)一文
 
 ### Demo
 
-[MVPSample-master](https://github.com/whiskeyfei/WFAndroidDemo/tree/master/MVPSample-master)
+* [WFAndroid_MVP](https://github.com/whiskeyfei/WFAndroidDemo/tree/master/WFAndroid_MVP)
 
