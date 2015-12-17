@@ -1,4 +1,4 @@
-    ---
+---
 layout: post
 title: Github日常项目收集
 category: 日常
