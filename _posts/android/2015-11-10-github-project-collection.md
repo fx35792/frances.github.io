@@ -46,12 +46,12 @@ keywords: Android,github.git
 38、[DWCinemaAnimation-Android](https://github.com/DavidWangTM/DWCinemaAnimation-Android)<br/>
 39、[Aisen微博-新浪微博的第三方客户端](https://github.com/wangdan/AisenWeiBo.git)，非常适合独立开发者学习<br/>
 40、[BookdashAndroidApp](https://github.com/spongebobrf/BookdashAndroidApp)<br/>
-、[loading-balls](https://github.com/glomadrian/loading-balls)loading<br/>
 41、[JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)口语化正则表达式<br/>
 42、[CircleImageView](https://github.com/hdodenhof/CircleImageView)圆形imageview<br/>
 43、 [FinestWebView-Android](https://github.com/TheFinestArtist/FinestWebView-Android)<br/>
 44、[android-Ultra-Pull-To-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)秋百万<br/>
 45、[APK瘦身实践](http://www.jayfeng.com/2015/12/29/APK%E7%98%A6%E8%BA%AB%E5%AE%9E%E8%B7%B5/) 总结非常好<br/>
+46、[loading-balls](https://github.com/glomadrian/loading-balls)loading<br/>
 
 
 ### --未完待续，如果有丢失链接得请告知，谢谢！
