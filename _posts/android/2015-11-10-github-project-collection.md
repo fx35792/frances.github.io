@@ -37,20 +37,21 @@ keywords: Android,github.git
 29、[android-best-practices](https://github.com/futurice/android-best-practices/blob/master/translations/Chinese/README.cn.md)Android 开发最佳实践,记录一些规范等
 30、[AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配，最大限度解决适配问题
 31、[EventBus](https://github.com/greenrobot/EventBus)
-27、[SpringIndicator水滴效果viewpager](https://github.com/chenupt/SpringIndicator)<br/>
-28、[volley官方源码](https://android.googlesource.com/platform/frameworks/volley/)<br/>
-29、[android-volley非官方](https://github.com/mcxiaoke/android-volley)<br/>
-20、[一种在android中实现MVP模式的新思路](https://github.com/bboyfeiyu/android-tech-frontier/tree/master/androidweekly/%E4%B8%80%E7%A7%8D%E5%9C%A8android%E4%B8%AD%E5%AE%9E%E7%8E%B0MVP%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%96%B0%E6%80%9D%E8%B7%AF)<br/>
-21、[MVPro](https://github.com/qibin0506/MVPro)<br/>
-22、[BadgedImageview](https://github.com/yesidlazaro/BadgedImageview)10 条提升 Android 性能的建议<br/>
-23、[DWCinemaAnimation-Android](https://github.com/DavidWangTM/DWCinemaAnimation-Android)<br/>
-24、[Aisen微博-新浪微博的第三方客户端](https://github.com/wangdan/AisenWeiBo.git)，非常适合独立开发者学习<br/>
-25、[BookdashAndroidApp](https://github.com/spongebobrf/BookdashAndroidApp)<br/>
-26、[loading-balls](https://github.com/glomadrian/loading-balls)loading<br/>
-27、[JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)口语化正则表达式<br/>
-28、[CircleImageView](https://github.com/hdodenhof/CircleImageView)圆形imageview<br/>
-29、 [FinestWebView-Android](https://github.com/TheFinestArtist/FinestWebView-Android)<br/>
-30、[android-Ultra-Pull-To-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)秋百万<br/>
+32、[SpringIndicator水滴效果viewpager](https://github.com/chenupt/SpringIndicator)<br/>
+33、[volley官方源码](https://android.googlesource.com/platform/frameworks/volley/)<br/>
+34、[android-volley非官方](https://github.com/mcxiaoke/android-volley)<br/>
+35、[一种在android中实现MVP模式的新思路](https://github.com/bboyfeiyu/android-tech-frontier/tree/master/androidweekly/%E4%B8%80%E7%A7%8D%E5%9C%A8android%E4%B8%AD%E5%AE%9E%E7%8E%B0MVP%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%96%B0%E6%80%9D%E8%B7%AF)<br/>
+36、[MVPro](https://github.com/qibin0506/MVPro)<br/>
+37、[BadgedImageview](https://github.com/yesidlazaro/BadgedImageview)10 条提升 Android 性能的建议<br/>
+38、[DWCinemaAnimation-Android](https://github.com/DavidWangTM/DWCinemaAnimation-Android)<br/>
+39、[Aisen微博-新浪微博的第三方客户端](https://github.com/wangdan/AisenWeiBo.git)，非常适合独立开发者学习<br/>
+40、[BookdashAndroidApp](https://github.com/spongebobrf/BookdashAndroidApp)<br/>
+、[loading-balls](https://github.com/glomadrian/loading-balls)loading<br/>
+41、[JavaVerbalExpressions](https://github.com/VerbalExpressions/JavaVerbalExpressions)口语化正则表达式<br/>
+42、[CircleImageView](https://github.com/hdodenhof/CircleImageView)圆形imageview<br/>
+43、 [FinestWebView-Android](https://github.com/TheFinestArtist/FinestWebView-Android)<br/>
+44、[android-Ultra-Pull-To-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)秋百万<br/>
+45、[APK瘦身实践](http://www.jayfeng.com/2015/12/29/APK%E7%98%A6%E8%BA%AB%E5%AE%9E%E8%B7%B5/) 总结非常好<br/>
 
 
 ### --未完待续，如果有丢失链接得请告知，谢谢！
