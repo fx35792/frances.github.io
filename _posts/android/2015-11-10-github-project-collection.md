@@ -52,6 +52,6 @@ keywords: Android,github.git
 44、[android-Ultra-Pull-To-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)秋百万<br/>
 45、[APK瘦身实践](http://www.jayfeng.com/2015/12/29/APK%E7%98%A6%E8%BA%AB%E5%AE%9E%E8%B7%B5/) 总结非常好<br/>
 46、[loading-balls](https://github.com/glomadrian/loading-balls)loading<br/>
-
+47、[一个实用的多条件筛选菜单](https://github.com/dongjunkun/DropDownMenu)<br/>
 
 ### --未完待续，如果有丢失链接得请告知，谢谢！
