@@ -174,4 +174,6 @@ description: Android常用ADB命令,批量处理
 
 ```
 
-###  未完待续。。。
+### 参考文章
+
+* [ adb logcat 命令行用法](http://www.hanshuliang.com/?post=32)

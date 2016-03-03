@@ -41,3 +41,26 @@ git add xx
 git commit -m "xxx" 
 git push origin master
 ```
+
+### 其他：
+重命名远程仓库
+
+```java
+$: git remote rename github gh 
+$: git remote 
+origin gh
+
+```
+
+删除远程仓库
+
+```java
+$: git remote rm github
+$: git remote origin
+```
+
+查看所有分支
+
+```java
+	git branch -a
+```
