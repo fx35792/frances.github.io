@@ -137,4 +137,41 @@ description: Android常用ADB命令,批量处理
   root$ python loop.py
 ```
 
+### 10、查看cpu信息
+
+```java
+  root@android:/ # cd proc
+  root@android:/proc # cat cpuinfo                                               
+  Processor : ARMv7 Processor rev 0 (v7l)
+  processor : 0
+  BogoMIPS  : 670.23
+
+  processor : 1
+  BogoMIPS  : 670.23
+
+  Features  : swp half thumb fastmult vfp edsp neon vfpv3 
+  CPU implementer : 0x41
+  CPU architecture: 7
+  CPU variant : 0x3
+  CPU part  : 0xc09
+  CPU revision  : 0
+
+  Hardware  : Amlogic Meson6 g02 customer platform
+  Revision  : 0020
+  Serial    : 000000000000000c
+  root@android:/proc # 
+```
+
+### 11、adb 截取日志log
+
+  使用eclipse log时有缓冲区，所以不太好用，以下主要说下我平时用的
+
+```java
+  adb logcat -c 清空缓存log信息;
+  adb logcat -v thread > 1.log  保存到文件中
+  adb logcat -v time
+  adb logcat -s System.out  将System.out过滤出来
+
+```
+
 ###  未完待续。。。
