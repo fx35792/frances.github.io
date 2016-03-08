@@ -174,6 +174,25 @@ description: Android常用ADB命令,批量处理
 
 ```
 
+### 12、adb pull /push 使用
+
+  使用eclipse ddms有时候不能导出文件，下面使用adb命令导入和导出文件
+
+```java
+  adb remount //先要remount一下，后面可能会操作文件失败
+  > remount succeeded
+
+  //adb pull Test
+
+  adb pull xxx xxx;//xxx为路径
+  adb pull /data/data/com.mvp/files/text.txt data/     //data目录必须创建好
+
+  //adb push Test
+
+  adb push tex2.txt /data/data/com.mvp/files/
+
+```
+
 ### 参考文章
 
 * [ adb logcat 命令行用法](http://www.hanshuliang.com/?post=32)
