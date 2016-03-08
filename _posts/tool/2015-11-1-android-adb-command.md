@@ -9,14 +9,14 @@ description: Android常用ADB命令,批量处理
 ## 常用ADB命令
 
 ### 1、启动和关闭adb服务
-  启动
+ 
 ```java
-    adb kill-server
+    adb kill-server  //关闭
 ```
 
-  关闭
+  
 ```java
-    adb start-server
+    adb start-server //启动
 ```
 
 ### 2、adb shell绑定hosts
@@ -37,16 +37,21 @@ description: Android常用ADB命令,批量处理
 ```
 
 ### 3、adb通过ip链接设备
-  链接设备
+
 ```java
+
+    //连接设备
     adb connect xxx.xxx.xxx.xxx
     e.g: adb connect 192.168.1.101
-```
 
-  断开链接设备
+```
+  
 ```java
+
+    //断开连接设备
     adb disconnect xxx.xxx.xxx.xxx
     e.g: adb disconnect 192.168.1.101
+
 ```
 
   断开所有设备
@@ -64,8 +69,8 @@ description: Android常用ADB命令,批量处理
 
 ### 5、adb命令启动Activity
 
-启动设置页面
 ```java
+    //启动设置页面
     adb shell am start -n com.android.settings/.Settings
 ```
 
@@ -81,23 +86,23 @@ description: Android常用ADB命令,批量处理
 
 ### 7、adb命令查看内存使用情况
 
-启动设置页面
+
 ```java
+    //adb 查看内存信息
     adb shell dumpsys meminfo + packageName
     e.g: adb shell dumpsys meminfo com.dangbeimarket
 ```
 
 ### 8、adb安装和卸载应用
 
-安装
+
 ```java
-    adb install + apkpath
+    adb install + apkpath //安装
     e.g: adb install D:/a.apk
 ```
 
-卸载
 ```java
-    adb uninstall + packagename
+    adb uninstall + packagename  //卸载
     e.g: adb uninstall com.dangbeimarket
 ```
 
