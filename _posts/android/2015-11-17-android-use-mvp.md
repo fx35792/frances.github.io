@@ -5,32 +5,42 @@ category: android
 keywords: Android,MVP
 ---
 
-> 前段时间接收了一个模块，看着代码让人捉急，于是将模块用MVP思想来优化了，考虑到不能太多的影响现有模块功能和其他调用方式，没有做太大的改动，只是将流程进行了梳理和优化，在以后新的模块中可以使用MVVM思想，比MVP优点更多，直接上案例； 
+> 前段时间接了一个模块，看着代码让人捉急，于是将模块用MVP思想来优化了，考虑到不能太多的影响现有模块功能和其他调用方式，没有做太大的改动，只是将流程进行了梳理和优化，在以后新的模块中可以使用MVVM思想，比MVP优点更多，直接上案例； 
 
-> MVP是一套理论概念，而不是一种具体实现,需要注意MVP仅用于应用中的GUI部分，它并不是整个应用的架构方式，一个应用的主要的架构应该包括基础组件，业务逻辑层和GUI展示层，而MVP仅是用于展示层的设计模式。
+> MVP(Model-View-Presenter)是一套理论概念，而不是一种具体实现,需要注意MVP仅用于应用中的GUI部分，它并不是整个应用的架构方式，一个应用的主要的架构应该包括基础组件，业务逻辑层和GUI展示层，而MVP仅是用于展示层的设计模式。另外，它是一个方法论的东西，没有固定的实现方式，只要能体现出它的方法就可以算是MVP。
 
-> 另外，它是一个方法论的东西，没有固定的实现方式，只要能体现出它的方法就可以算是MVP。
+### MVC
 
-> 最后送上一句话,再看资料时看到的，“Architecture is About Intent, not Frameworks” - Robert C. Martin (Uncle Bob)
+    简单说下MVC(Model-View-Controller),MVC在网站开发中用的多，以前用thinkphp时就是MVC，MVC机构分为三部分，实体层的Model，视图层的View，控制层的Controller。
+    View就是我们看到的程序界面，接受用户的操作，Model就是数据，Controller用于更新View和Model。
+    这样三部分都将自己的业务分开，不必干扰其他模块部分，和设计模式当中类功能的单一职责相似。
 
-### 介绍
+### MVP
 
-* M-Model-模型、V-View-视图、P-Presenter-表示器,具体对比mvc、mvvm等自己Google;
+    MVP模式（Model-View-Presenter）应该是MVC在Android开发上的一种变化模式，其思想是一样的，都是将三层业务分离。
+    View对应Activity，业务逻辑Presenter，Model还是数据。
+    这样划分以后，三层工作逻辑很清晰，view只管相应用户等系统事件，具体操作全都丢到Persenter中，而view不能直接操作model，需要通过Presenter中转。
+
+### 作用
+    
+    * 分离了Activity中的UI和业务逻辑，降低了耦合程度，以后如果更换view层会很方便，因为UI层和业务层互不影响，只存在一个调用关系;
+    * 业务逻辑层代码可以复用，降低了维护成本;
+    * 增强了代码的可读性，一层一层调用会很清晰;
+    * 可以进行单元测试，通过后和UI层在进行合并，提高效率;
 
 ### 注意
 
-* 不能为了接口而抽象,适当的抽象;
-* 考虑业务是否符合MVP;
-* View过多时,不建议使用MVP,view增多导致Presenter增多,从而不以维护;
+    * 不能为了接口而抽象,适当的抽象;
+    * 考虑业务是否符合MVP;
+    * View过多时,不建议使用MVP,view增多导致Presenter增多,从而不以维护，不过一般view也不会太多;
 
 ### 约束条件
 
-* Model与View不能直接通信，只能通过Presenter
-* Presenter类似于中间人的角色进行协调和调度
-* Model和View是接口，Presenter持有的是一个Model接口和一个View接口
-* Model和View都应该是被动的，一切都由Presenter来主导
-* Model应该把与业务逻辑层的交互封装掉，换句话说Presenter和View不应该知道业务逻辑层
-* View的逻辑应该尽可能的简单，不应该有状态。当事件发生时，调用Presenter来处理，并且不传参数，Presenter处理时再调用View的方法来获取。
+    * Model与View不能直接通信，只能通过Presenter;
+    * Model和View是接口，Presenter持有的是一个Model接口和一个View接口;
+    * Model和View都应该是被动的，一切都由Presenter来主导;
+    * Model应该把与业务逻辑层的交互封装掉，换句话说Presenter和View不应该知道业务逻辑层；
+    * View的逻辑应该尽可能的简单，不应该有状态。当事件发生时，调用Presenter来处理，并且不传参数，Presenter处理时再调用View的方法来获取;
 
 ### 具体使用
 
