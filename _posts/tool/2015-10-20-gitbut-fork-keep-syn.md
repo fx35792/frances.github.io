@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 保持fork本地项目和Github原始地址线上同步
+title: fork本地项目和Github原始线上同步
 category: 工具
 keywords: Android,github,fork,git
 ---
