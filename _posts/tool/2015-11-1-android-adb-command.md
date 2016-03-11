@@ -164,7 +164,10 @@ description: Android常用ADB命令,批量处理
   Hardware  : Amlogic Meson6 g02 customer platform
   Revision  : 0020
   Serial    : 000000000000000c
-  root@android:/proc # 
+  root@android:/proc #
+
+
+  adb shell cat etc/proc/meminfo  //内存系统信息 
 ```
 
 ### 11、adb 截取日志log
