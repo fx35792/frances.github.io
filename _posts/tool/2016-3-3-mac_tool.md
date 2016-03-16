@@ -32,7 +32,7 @@ description: Mac日常使用技巧积累
 	4、测试一下，会关掉Finder然后在打开就可以看见隐藏文件了
 
 ```
-	![hidefile for mac](http://7xol9p.com1.z0.glb.clouddn.com/hidefile.png)
+	![hidefile for mac]({{ site.url }}/assets/image/hidefile.png)
 
 
 ### 使用命令行英文发音

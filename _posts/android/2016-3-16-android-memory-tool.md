@@ -37,7 +37,7 @@ A memory leak is a particular type of unintentional memory consumption by a comp
     * Bitmip和Drawable记得手动回收；
     * 静态对象引用Context，导致对象无法释放，从而导致Activity无法释放；
     * Handler回收；
-    * 使用getApplicationContext();
+    * 使用getApplicationContext(),少使用Activity;
 
 ### 参考文章
 
