@@ -6,20 +6,23 @@ tags: [mac]
 description: Mac日常使用技巧积累
 ---
 
+Mac平时使用技巧命令等，好记忆不如烂笔头，下次直接用
+
 ### Mac显示隐藏文件 - 第一种
 	 命令行输入以下命令然后刷新Finder即可
 
-```java
+{% highlight java%}
 	defaults write com.apple.finder AppleShowAllFiles -bool false/true
 
-```
+{% endhighlight %}
 
 ### Mac显示隐藏文件 - 第二种
 
-```
+
 	1、打开Automator应用(一个小机器人)，可以搜索control + Space;
 	2、将以下代码copy并运行，并保存成Toggle Hidden Files;
 
+	{% highlight java%}
 		STATUS=`defaults read com.apple.finder AppleShowAllFiles`
 	if [ $STATUS == YES ];
 	then
@@ -28,22 +31,22 @@ description: Mac日常使用技巧积累
 	    defaults write com.apple.finder AppleShowAllFiles YES
 	fi
 	killall Finder
-	3、设置键盘快捷键，在左边选择服务，然后勾上“Toggle Hidden Files”，在它的右边双击鼠标，然后按下你想要设定成为的快捷键,我这里是Command+Shift+.（点）;
+	{% endhighlight %}
+
+	3、设置键盘快捷键，在左边选择服务，然后勾上“Toggle Hidden Files”，在它的右边双击鼠标，
+	然后按下你想要设定成为的快捷键,我这里是Command+Shift+.（点）;
 	4、测试一下，会关掉Finder然后在打开就可以看见隐藏文件了
 
-```
-	![hidefile]({{ site.url }}/assets/image/hidefile.png)
 
 ### 使用命令行英文发音
 
-```java
+{% highlight java%}
 	say hello
-
-```
+{% endhighlight %}
 
 ### 查看当前目录文件大小
 
-```java
+{% highlight java%}
 	du -sh *
 
 	//结果
@@ -61,23 +64,23 @@ description: Mac日常使用技巧积累
 	4.0K	pages
 	4.0K	sitemap.txt
 
-```
+{% endhighlight %}
 
 ### 截图方法
 
-```
+{% highlight java%}
 	shift + commmand + 3  //全屏幕
 	shift + commmand + 4  //自由选取
 	//图片保存在桌面
-```
+{% endhighlight %}
 
 ### 批量复制文件
 
-```
+{% highlight java%}
 	//进入目录，执行以下命令
 	cp *.png *.gif /xxx		  //复制
 	mv *.png *.gif /xxx      //剪切
-```
+{% endhighlight %}
 
 
 

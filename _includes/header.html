@@ -1,19 +1,25 @@
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-<!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
-
-<title>{{ page.title }} | {{ site.title }}</title>
-<meta name="author" content="{{ site.author.name }}">
-{% if page.keywords %}
-  <meta name="keywords" content="{{ page.keywords }}">
-{% endif %}
-
-{% if page.description  %}
-  <meta name="description " content="{{ page.description  }}">
-{% endif %}
-
-<link rel="shortcut icon" href="{{ site.favicon }}" />
-
-<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-
-<link href="/pages/rss.xml" rel="alternate" title="{{site.title}}" type="application/atom+xml">
+<header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="{{ site.baseurl }}/" class="logo">
+       <span>{{ site.title }}</span>
+     <!--  {% if site.logo %}
+      <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}"> 
+      <a href="{{site.baseurl}}"></a>
+      {% else %}
+      <span>{{ site.title }}</span>
+      {% endif %} -->
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        {% for page in site.pages %}
+          {% if page.title and page.main_nav != false and page.title != 'Typography'%}
+          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
