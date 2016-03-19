@@ -20,7 +20,8 @@ layout: default
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      <!-- <p>{{ post.content | strip_html | truncatewords: 50 }}</p> -->
+      {{ post.excerpt }}
     </section>
     <section class="post-meta">
       <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
@@ -81,7 +82,7 @@ layout: default
     {% endif %}
   </p>
   <p>
-    <a href="{{ site.baseurl }}/posts">View All Posts by Category</a>
+    <a href="{{ site.baseurl }}/posts"> 查看目录 </a>
   </p>
 </nav>
 

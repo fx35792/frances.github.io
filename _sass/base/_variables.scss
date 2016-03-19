@@ -1,5 +1,5 @@
 // Google Fonts
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300|Roboto:400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
+@import url(//fonts.useso.com/css?family=Roboto+Slab:400,700,300|Roboto:400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
 
 // Typography
 $base-font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; // $helvetica;
@@ -41,7 +41,8 @@ $bc-red: #bc0000;
 $base-background-color: #fff;
 $base-font-color: $dark-gray;
 $action-color: $blue;
-$highlight-color: tint($action-color, 33%);
+$highlight-color: $blue;
+
 
 // Border
 $base-border-color: $light-gray;
