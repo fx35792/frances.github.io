@@ -366,6 +366,7 @@ pre code.hljs {
 	  }
 	}
 	.wrapper {
+		text-align: center;
 		@include outer-container;
 	}
 	.footer-heading {
@@ -410,12 +411,36 @@ pre code.hljs {
 		ul {
 			@extend %default-ul;
 		}
+		li{
+			display: inline-block;
+			padding-right: 5px;
+			padding-left: 5px;
+		}
 	}
+	.site-contact1{
+
+		margin-top: 1em;
+		ul {
+			@extend %default-ul;
+		}
+		li{
+			display: inline-block;
+			padding-right: 5px;
+			padding-left: 5px;
+		}
+		i {
+			text-align: center;
+		}
+		
+
+	}
+
+
 	/*
 	*	Site Description/Signature (right)
 	*/
 	.site-signature {
-		margin-top: 1em;
+		
 		@include span-columns(12);
 		@include media ($tablet) {
 			@include span-columns(4);

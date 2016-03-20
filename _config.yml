@@ -8,7 +8,7 @@ exclude:
 
 # Site settings
 title: 叮当
-subtitle: "CaoPengfei 个人博客"
+subtitle: "越努力越幸运"
 email: whiskeyfei@gmail.com
 name: CaoPengfei
 description: >
@@ -70,14 +70,14 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
+    username: 
+    url: https://twitter.com/whiskeyfei
     desc: Follow me on Twitter
-    share: true
+    share: false
 
   - name: Facebook
     icon: facebook
-    username: thebencentra
+    username: 
     url:
     desc: Friend me on Facebook
     share: true
