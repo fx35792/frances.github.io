@@ -5,10 +5,10 @@ category: android
 keywords: Android,memory
 ---
 
-在Android开发开发中，操作不当很容易引起内存泄漏，这里主要记录下平时遇到问题，包括：静态变量、非静态的内部类、Handler；尤其是Handler
-在开发中要格外的注意；
+在Android开发开发中，操作不当很容易引起内存泄漏，这里主要记录下平时遇到问题，包括：静态变量、非静态的内部类、Handler，尤其是Handler
+在开发中要格外的注意。
 
-### 1、静态变量
+## 1、静态变量
 
 {% highlight java %}
 public class LeakActivityDemo extends Activity{
@@ -30,7 +30,7 @@ public class LeakActivityDemo extends Activity{
 解决:方法在 Activity 生命周期 onDestroy 时将 mTextView 置空，或者尽量少使用到静态变量。 
 注意:在写代码时，要考虑到当前的变量是否持有当前 Activity 的引用，避免出现内存泄漏.
 
-### 2、非静态内部类
+## 2、非静态内部类
 
 {% highlight java %}
 public class LeakActivity extends Activity{
@@ -99,7 +99,7 @@ public class LeakActivity extends Activity{
   }
 {% endhighlight %}
 
-### 非静态内部类生成的静态变量
+## 3、非静态内部类生成的静态变量
 
 {% highlight java %}
 private static MyClass myClass;
