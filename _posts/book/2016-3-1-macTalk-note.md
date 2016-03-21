@@ -4,7 +4,7 @@ author: 无名
 title: 《突然就走到了西藏》读书笔记
 category: 读书
 keywords: 突然就走到了西藏,life
-cover:  "/assets/header_image3.jpg"
+cover:  "/assets/header_image1.jpg"
 ---
 
 <h4>突然就走到了西藏 - 陈坤</h4>
