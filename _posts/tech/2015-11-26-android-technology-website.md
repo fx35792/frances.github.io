@@ -14,5 +14,7 @@ keywords: Android,web
 5、[stormzhang博客精华](http://www.stormzhang.com/) AS教程、android开发等<br/>
 6、[Rocko](http://rocko.xyz/) Android Developer技术文章等<br/>
 7、[coderzh CoderZh Blog](http://blog.coderzh.com/) coderzh CoderZh Blog读书笔记个人文章等<br/>
-
+8、[技术小黑屋](http://droidyue.com/)<br/>
+9、[Drakeet的个人博客](https://drakeet.me/)<br/>
+10、[泡在网上的日子](http://www.jcodecraeer.com/)<br/>
 --未完待续，如果有丢失链接得请告知，谢谢！
